@@ -1,7 +1,7 @@
-Practica 1: 
-Preparación de las herramientas
+#Practica 1: 
+#Preparación de las herramientas
 
-Pasos:
+##Pasos:
 Descargar Ubuntu 12.04.5 LTS (Precise pangolin) para 32 bits (i386)
 http://cdimage.ubuntu.com/ubuntu-server/precise/daily/current/
 
@@ -25,15 +25,19 @@ sudo touch /var/www/hola.html
 sudo vim /var/www/hola.html
 ```
 
-Resultados:
+##Resultados:
 1. Obtener el numero de versión del apache instalado:
+
 ![Version apache](img/01.png)
 
 2. Consultar si hay algun proceso en el sistema con nombre apache:
+
 ![psaux apache](img/02.png)
 
 3. Consultamos la web desde el navegador
+
 ![captura chrome](img/03.png)
 
 4. Obtenemos la web mediante curl
+
 ![obtener con curl](img/04.png)
