@@ -1,4 +1,4 @@
-#Practica 1:Preparación de las herramientas
+#Practica 1: Preparación de las herramientas
 
 ##Pasos:
 Descargar Ubuntu 12.04.5 LTS (Precise pangolin) para 32 bits (i386)
