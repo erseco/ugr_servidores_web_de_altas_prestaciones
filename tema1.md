@@ -6,9 +6,9 @@ permalink: /ejercicios/
 source-id: 1CedfE0gN4Zgupmq0RLkgE2NP4g6IQMWxByOTIQLpQAk
 published: true
 ---
-SWAP - Ejercicios Tema 1
+# SWAP - Ejercicios Tema 1
 
-# Ejercicio 1.1. Buscar información sobre el tipo de contenido para el que los siguientes software de servidor web es más adecuado (o más eficiente, o se usa más actualmente...): apache, nginx, cherooke, lighttp, node.js, tomcat. 
+### Ejercicio 1.1. Buscar información sobre el tipo de contenido para el que los siguientes software de servidor web es más adecuado (o más eficiente, o se usa más actualmente...): apache, nginx, cherooke, lighttp, node.js, tomcat. 
 
 <table>
   <tr>
