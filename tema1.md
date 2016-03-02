@@ -1,8 +1,6 @@
 ---
 title: SWAP Ejercicios Tema 1
 layout: post
-author: erseco
-permalink: /ejercicios/
 source-id: 1CedfE0gN4Zgupmq0RLkgE2NP4g6IQMWxByOTIQLpQAk
 published: true
 ---
