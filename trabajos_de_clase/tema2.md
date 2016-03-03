@@ -5,9 +5,9 @@ author: erseco
 source-id: 1x2kGMixyvNDq1E-nvcjoYPKQmjgrxfqwEJgTGKXnxGo
 published: true
 ---
-SWAP - Ejercicios Tema 2
+# SWAP - Ejercicios Tema 2
 
-### Ejercicio 2.1. Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema). 
+### Ejercicio 2.1. Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema)
 
 <table>
   <tr>
