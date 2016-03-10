@@ -1,8 +1,16 @@
 <pregunta>
-  <enunciado>el texto del enunciado</enunciado>
-  <opcionA>primera opcion</opcionA>
-  <opcionB>segunda opcion</opcionB>
-  <opcionC>tercera opcion</opcionC>
-  <opcionD>cuarta opcion</opcionD>
-  <solucion>C</solucion>
+  <enunciado>Señale la respuesta correcta</enunciado>
+  <opcionA>Ampliacion horizontal es añadir mas servidores, uno encima de otro.</opcionA>
+  <opcionB>Ampliación horizontal es incrementar la RAM, CPU, disco de un servidor.</opcionB>
+  <opcionC>Ampliación vertical es añadir máquinas a algún subsistema (servidores web, servidores de datos, etc).</opcionC>
+  <opcionD>Ampliación horizontal es añadir máquinas a algún subsistema (servidores web, servidores de datos, etc).</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Señale cual de las siguientes opciones no incrementa el nivel de estrés</enunciado>
+  <opcionA>Fallos o caídas de algunas partes del sistema.</opcionA>
+  <opcionB>Incremento del número de máquinas.</opcionB>
+  <opcionC>Incremento repentino del número de usuarios del sitio.</opcionC>
+  <opcionD>Instalación de una réplica del sitio.</opcionD>
+  <solucion>D</solucion>
 </pregunta>

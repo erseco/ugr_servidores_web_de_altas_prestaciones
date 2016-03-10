@@ -1,8 +1,16 @@
 <pregunta>
-  <enunciado>el texto del enunciado</enunciado>
-  <opcionA>primera opcion</opcionA>
-  <opcionB>segunda opcion</opcionB>
-  <opcionC>tercera opcion</opcionC>
-  <opcionD>cuarta opcion</opcionD>
+  <enunciado>¿Que es la escalabilidad?</enunciado>
+  <opcionA>La capacidad para dar soporte a un número decreciente de usuarios.</opcionA>
+  <opcionB>La capacidad para dar soporte a un número creciente de usuarios.</opcionB>
+  <opcionC>Una nomenclatura usada por los alpinistas para clasificar las montañas</opcionC>
+  <opcionD>Ninguna de las anteriores</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Que significan las siglas LAMP?</enunciado>
+  <opcionA>Es la abreviatura de lámpara.</opcionA>
+  <opcionB>Acrónimo de Linux Assets Multiple Protocol.</opcionB>
+  <opcionC>Acrónimo de Linux Apache MySQL y PHP</opcionC>
+  <opcionD>Acrónimo de Linux Apache MultiProcces (mpmp-prefork)</opcionD>
   <solucion>C</solucion>
 </pregunta>
