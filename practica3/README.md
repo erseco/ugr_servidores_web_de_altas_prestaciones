@@ -13,10 +13,23 @@ apt-get install nginx
 
 ###3. Comenzamos a configurar nginx editando el archivo */etc/nginx.conf.d/default.conf*
 ```
-upstream apaches {	server swap1; 
-	server swap2;}server{	listen 80;	server_name balanceador;	access_log /var/log/nginx/balanceador.access.log; 	error_log /var/log/nginx/balanceador.error.log; 	root /var/www/;	location / {		proxy_pass http://apaches;		proxy_set_header Host $host;		proxy_set_header X-Real-IP $remote_addr;		proxy_set_header X-Forwarded-For 	$proxy_add_x_forwarded_for; 
-		proxy_http_version 1.1;		proxy_set_header Connection ""; 
-	}}
+upstream apaches {
+	server swap1;
+	server swap2;
+}
+server{
+	listen 80;
+	server_name balanceador;
+	access_log /var/log/nginx/balanceador.access.log; 	error_log /var/log/nginx/balanceador.error.log; 	root /var/www/;
+	location / {
+		proxy_pass http://apaches;
+		proxy_set_header Host $host;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_set_header X-Forwarded-For 	$proxy_add_x_forwarded_for;
+		proxy_http_version 1.1;
+		proxy_set_header Connection "";
+	}
+}
 
 ```
 Tip: en lugar de indicarle las ips le indicamos los nombres que hemos definido el fichero *hosts*
@@ -39,7 +52,8 @@ Podemos ver los headers con cualquier visor, aquí vemos como **nginx** se ident
 
 ###4. Hemos instalado **haproxy** mediante apt-get en swap3
 ```
-apt-get install haproxy
+sudo apt-get install haproxy
+sudo
 vim /etc/haproxy/haproxy.cfg
 ```
 
@@ -52,15 +66,16 @@ defaults
         contimeout 4000
         clitimeout 42000
         srvtimeout 43000
-frontend http-in 
+frontend http-in
         bind *:80
         default_backend servers
 backend servers
-        server m1 swap1:80 maxconn 32 
+        server m1 swap1:80 maxconn 32
         server m2 swap2:80 maxconn 32
 ```
 
-```/usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
+```
+sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 curl localhost/hola.html
 curl localhost/hola.html
 ```
@@ -98,3 +113,4 @@ End
 ```
 
 Hemos cambiado el archivo necesario para que se pueda iniciar el demonio en */etc/default/pound* y lo hemos iniciado
+

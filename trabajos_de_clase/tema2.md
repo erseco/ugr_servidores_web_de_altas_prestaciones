@@ -1,10 +1,4 @@
----
-title: SWAP Ejercicios Tema 2
-layout: post
-author: erseco
-source-id: 1x2kGMixyvNDq1E-nvcjoYPKQmjgrxfqwEJgTGKXnxGo
-published: true
----
+
 # SWAP - Ejercicios Tema 2
 
 ### Ejercicio 2.1. Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema)
@@ -71,7 +65,7 @@ published: true
 
 ### Como ejemplo, examina PM2 https://github.com/Unitech/pm2
 
-### que sirve para administrar clústeres de NodeJS. 
+### que sirve para administrar clústeres de NodeJS.
 
 * MySQL Router para balancear bases de datos MySQL de forma sencilla
 

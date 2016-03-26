@@ -1,10 +1,4 @@
----
-title: SWAP Ejercicios Tema 3
-layout: post
-author: erseco
-source-id: 1iDwACopRlMg3bRqWsKcgU5Px9qoQ7g3rvkcOD3GG8JE
-published: true
----
+
 # SWAP - Ejercicios Tema 3
 
 ### Ejercicio 3.1. Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.

@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Cual de los siguientes NO es un algoritmo de balanceo?</enunciado>
+  <opcionA>Round-Robin.</opcionA>
+  <opcionB>Batman y Robin.</opcionB>
+  <opcionC>Por prioridad.</opcionC>
+  <opcionD>Por tiempo de respuesta.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Que significan las siglas VIP cuando hablamos de balanceo?</enunciado>
+  <opcionA>Virtual IP: dirección pública a la que acceden los usuarios cuando piden un servicio al sistema.</opcionA>
+  <opcionB>Very Important IP: la ip mas importante de nuestro cluster de servidores.</opcionB>
+  <opcionC>Very Important Person: suele referirse al administrador de sistemas, o en su defecto al cuñado del jefe que hizo un curso de informática de CCC.</opcionC>
+  <opcionD>Virtual Independent Protocol: Protocolo usado para separar los nodos de un balanceador de forma transparente.</opcionD>
+  <solucion>A</solucion>
+</pregunta>

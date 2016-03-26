@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>Señale la respuesta correcta</enunciado>
+  <opcionA>Una DMZ doble es mas sencilla de configurar, mas segura y da mejor rendimineto.</opcionA>
+  <opcionB>Una DMZ simple es la solución mas óptima para grandes empresas.</opcionB>
+  <opcionC>Desde la entrada de españa en la OTAN no tiene sentido configurar una DMZ.</opcionC>
+  <opcionD>El Front-Rail es el tiempo mínimo de respuesta de un servidor.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Cuantas tarjetas de red necesitamos en una DMZ doble para conectar servicios al front y al back-rail simultaneamente</enunciado>
+  <opcionA>1</opcionA>
+  <opcionB>2</opcionB>
+  <opcionC>3</opcionC>
+  <opcionD>Ninguna</opcionD>
+  <solucion>B</solucion>
+</pregunta>

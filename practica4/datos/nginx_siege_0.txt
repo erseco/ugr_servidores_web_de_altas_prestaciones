@@ -1,0 +1,19 @@
+** SIEGE 3.1.0
+** Preparing 15 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...-      done.
+
+Transactions:		       10459 hits
+Availability:		      100.00 %
+Elapsed time:		        9.12 secs
+Data transferred:	        0.75 MB
+Response time:		        0.01 secs
+Transaction rate:	     1146.82 trans/sec
+Throughput:		        0.08 MB/sec
+Concurrency:		       14.90
+Successful transactions:       10459
+Failed transactions:	           0
+Longest transaction:	        0.09
+Shortest transaction:	        0.00
+ 

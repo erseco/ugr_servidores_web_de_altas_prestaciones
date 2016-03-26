@@ -7,9 +7,9 @@ tar czf - material\ adicional/ | ssh swap1 'cat > ~/tar.tgz'
 ```
 ![captura](img/01.png)
 
-###2. Estando en la máquina *swap2* copiamos el contenido de la carpeta /var/www/ desde *swap1* 
+###2. Estando en la máquina *swap2* copiamos el contenido de la carpeta /var/www/ desde *swap1*
 ```
-rsync -avz -e ssh root@swap1:/var/www/ /var/www/
+rsync -avz --delete -e ssh root@swap1:/var/www/ /var/www/
 ```
 ![captura](img/02.png)
 
@@ -32,7 +32,7 @@ Tip: Hemos generado tambien claves para las dos maquinas, y hemos agregado las p
 
 ###5. Agregamos en el crontab de swap1 una tarea para que se sincronice con swap2
 ```
-sudo crontab -e 
+sudo crontab -e
 ```
 y agregamos la siguiente linea al final del archivo
 ```

@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1663405 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking swap1 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        swap1
+Server Port:            80
+
+Document Path:          /hola.html
+Document Length:        65 bytes
+
+Concurrency Level:      5
+Time taken for tests:   4.557 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      3400000 bytes
+HTML transferred:       650000 bytes
+Requests per second:    2194.35 [#/sec] (mean)
+Time per request:       2.279 [ms] (mean)
+Time per request:       0.456 [ms] (mean, across all concurrent requests)
+Transfer rate:          728.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.4      1       6
+Processing:     0    1   0.8      1      23
+Waiting:        0    1   0.6      1      17
+Total:          1    2   0.8      2      23
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      3
+  90%      3
+  95%      3
+  98%      4
+  99%      5
+ 100%     23 (longest request)

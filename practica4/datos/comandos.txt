@@ -1,0 +1,47 @@
+comandos.txt
+
+cat servidor_ab_* | grep "Time taken for tests"
+cat servidor_ab_* | grep "Failed requests"
+cat servidor_ab_* | grep "Requests per second"
+
+
+cat nginx_ab_* | grep "Time taken for tests"
+cat nginx_ab_* | grep "Failed requests"
+cat nginx_ab_* | grep "Requests per second"
+
+cat haproxy_ab_* | grep "Time taken for tests"
+cat haproxy_ab_* | grep "Failed requests"
+cat haproxy_ab_* | grep "Requests per second"
+
+
+cat servidor_siege_* | grep "Availability:"
+cat nginx_siege_* | grep "Availability:"
+cat haproxy_siege_* | grep "Availability:"
+
+
+cat servidor_siege_* | grep "Elapsed time:"
+cat nginx_siege_* | grep "Elapsed time:"
+cat haproxy_siege_* | grep "Elapsed time:"
+
+
+cat servidor_siege_* | grep "Response time:"
+cat nginx_siege_* | grep "Response time:"
+cat haproxy_siege_* | grep "Response time:"
+
+
+cat servidor_siege_* | grep "Transaction rate:"
+cat nginx_siege_* | grep "Transaction rate:"
+cat haproxy_siege_* | grep "Transaction rate:"
+
+cat servidor_siege_* | grep "Failed transactions:"
+cat nginx_siege_* | grep "Failed transactions:"
+cat haproxy_siege_* | grep "Failed transactions:"
+
+cat servidor_siege_* | grep "Longest transaction:"
+cat nginx_siege_* | grep "Longest transaction:"
+cat haproxy_siege_* | grep "Longest transaction:"
+
+
+cat servidor_httperf_* | grep "Connection time"
+cat nginx_httperf_* | grep "Connection time"
+cat haproxy_httperf_* | grep "Connection time"
