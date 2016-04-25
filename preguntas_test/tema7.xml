@@ -1,16 +1,16 @@
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>¿Que es un RAID?</enunciado>
+  <opcionA>Una marca de insecticida</opcionA>
+  <opcionB>Un array redundante de discos baratos</opcionB>
+  <opcionC>Un array redundante de discos muy caros</opcionC>
+  <opcionD>Una manera de referirse al nodo root en linux</opcionD>
+  <solucion>B</solucion>
 </pregunta>
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>Cual de los siguientes NO es un sistema de archivos</enunciado>
+  <opcionA>FAT32</opcionA>
+  <opcionB>NTFS</opcionB>
+  <opcionC>EXT4</opcionC>
+  <opcionD>Kernel32.dll</opcionD>
+  <solucion>D</solucion>
 </pregunta>

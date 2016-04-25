@@ -1,16 +1,16 @@
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>Los objetivos de seguridad deben definirse correctamente se basan en los siguientes conceptos</enunciado>
+  <opcionA>Confidencialidad</opcionA>
+  <opcionB>Integridad</opcionB>
+  <opcionC>Disponibilidad</opcionC>
+  <opcionD>Todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>Que es un DDoS</enunciado>
+  <opcionA>Un ataque de denegacion de servicio</opcionA>
+  <opcionB>Un ataque de denegacion de servicio distribuido</opcionB>
+  <opcionC>Una version opensource de MS-DOS</opcionC>
+  <opcionD>Un portal de internet de la época de ozú.es, olé.com y demás dedicada a los amantes del punto de cruz</opcionD>
+  <solucion>B</solucion>
 </pregunta>

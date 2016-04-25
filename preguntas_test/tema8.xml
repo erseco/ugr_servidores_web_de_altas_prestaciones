@@ -1,16 +1,16 @@
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>¿Con qué estaba hecho la torre del primer servidor usado por Google?</enunciado>
+  <opcionA>Con piezas de LEGO</opcionA>
+  <opcionB>Era un rack</opcionB>
+  <opcionC>Era una torre vieja del punto limpio</opcionC>
+  <opcionD>La compraron en eBay</opcionD>
+  <solucion>A</solucion>
 </pregunta>
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>¿Por que el "porno" es uno de los mejores ejemplos de sitios con alto tráfico?</enunciado>
+  <opcionA>Porque ese tipo de páginas son las que consumen el 75% de recursos de internet</opcionA>
+  <opcionB>Porque si pusieran un ejemplo de como distribuir servidores de medición de embalses de regadío no atenderiamos tanto</opcionB>
+  <opcionC>Porque esas webs atienden muchos millones de peticiones por segundo, no como otras</opcionC>
+  <opcionD>Todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
 </pregunta>
