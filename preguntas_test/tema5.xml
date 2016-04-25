@@ -1,16 +1,16 @@
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>¿Que es mas importante en un entorno web?</enunciado>
+  <opcionA>Tiempo de acceso</opcionA>
+  <opcionB>Maximas conexiones concurrentes</opcionB>
+  <opcionC>Disponibilidad</opcionC>
+  <opcionD>Depende de la situacion, todas son importantes en segun que casos</opcionD>
+  <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado></enunciado>
-  <opcionA></opcionA>
-  <opcionB></opcionB>
-  <opcionC></opcionC>
-  <opcionD></opcionD>
-  <solucion></solucion>
+  <enunciado>Como se deben hacer unas pruebas de carga?</enunciado>
+  <opcionA>En una maquina virtual</opcionA>
+  <opcionB>Desde la maquina local</opcionB>
+  <opcionC>Desde un servidor en china</opcionC>
+  <opcionD>Lo ideal es hacer pruebas desde varias maquinas y a distintas horas, y con diferentes tipos de carga que las mediciones se parezcan mas a la realidad</opcionD>
+  <solucion>D</solucion>
 </pregunta>
