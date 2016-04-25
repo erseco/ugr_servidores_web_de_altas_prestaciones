@@ -14,7 +14,7 @@ El protocolo SSL (Secure Sockets Layer) es un protocolo de comunicación que se 
 
 El protocolo se diseñó de forma escalable permitiendo la elección de diversos algoritmos para la criptografía, compendios y firmas. Esto permite que la elección del algoritmo pueda hacerse teniendo en cuenta cuestiones legales, de exportación u otras preocupaciones, y también permite al protocolo aprovecharse de nuevos algoritmos. Las opciones se negocian entre el cliente y servidor al comienzo de la sesión.
 
-Hay varias versiones del protocolo, la primera, SSL v1 fue creada por Netscape Corporation y nunca tuvo uso público. La versión 2 ya formaba parte de las primeras versiones del navegador Netscape Navigator. Actualmente la versión que SSLv3 se considera insegura y el nuevo estándar se llama **TLS** (Transport Layer Security), este nuevo protocolo ha sido diseñado por el **IETF** (Internet Engineering Task Force) como una ampliación de SSLv3 con mejoras en la forma de realizar la autenticación. 
+Hay varias versiones del protocolo, la primera, SSL v1 fue creada por Netscape Corporation y nunca tuvo uso público. La versión 2 ya formaba parte de las primeras versiones del navegador Netscape Navigator. Actualmente la versión que SSLv3 se considera insegura y el nuevo estándar se llama **TLS** (Transport Layer Security), este nuevo protocolo ha sido diseñado por el **IETF** (Internet Engineering Task Force) como una ampliación de SSLv3 con mejoras en la forma de realizar la autenticación.
 
 # 2. Que son
 
@@ -22,7 +22,7 @@ Un certificado SSL sirve para brindar seguridad al visitante de su página web, 
 
 Un certificado SSL implementa el modelo preferido de seguridad en web, contiene claves digitales que protegen la integridad de sus datos al momento de enviar y recibir. Los servidores que corren SSL crean una vía con un cifrado único para las sesiones privadas a través de Internet, la clave pública del servidor está al alcance de cualquier persona. Es por eso que utilizan una clave pública y una clave privada: La clave pública es para cifrar la información, la clave privada sirve para descifrarla.
 
-Al elegir un certificado SSL debe tomar cuenta los alcances deseados en su sitio web, la audiencia que tendrá acceso y por último el tipo de sesión que el usuario realizará. 
+Al elegir un certificado SSL debe tomar cuenta los alcances deseados en su sitio web, la audiencia que tendrá acceso y por último el tipo de sesión que el usuario realizará.
 
 # 3. Tipos de certificados
 
@@ -46,7 +46,7 @@ El certificado de tipo SAN, también conocido como certificado multidominio, UC 
 
 # 4. Ventajas en SEO de los certificados SSL
 
-Desde el 6 de agosto de 2014, Google ofrece a los sitios web una ligera mejora en su posición en las búsquedas si añaden un certificado SSL de 2048-bit. Aunque no es una gran mejora y afecta a un bajo número de sitios web en este momento, es un presagio de lo que está por venir. 
+Desde el 6 de agosto de 2014, Google ofrece a los sitios web una ligera mejora en su posición en las búsquedas si añaden un certificado SSL de 2048-bit. Aunque no es una gran mejora y afecta a un bajo número de sitios web en este momento, es un presagio de lo que está por venir.
 
 Por lo general, no existen ventajas reales en usar SSL para proteger todo tu sitio web si no estás procesando transacciones económicas. Como muchos ya han señalado, el movimiento de Google tiene que ver más con la política y las relaciones públicas que con mejorar la calidad de las clasificaciones de búsqueda. Por supuesto, el cifrado total de un sitio puede, en algunos casos, reducir las brechas de seguridad. Eso siempre es bueno para los usuarios finales. Sea como sea, hacer que tu sitio use HTTPS en lugar de HTTP por defecto vale la pena, ya que demuestra un compromiso con una mejor experiencia de los usuarios a través de una mayor seguridad.
 
@@ -103,7 +103,7 @@ Para generar un certificado SSL autofirmado en Ubuntu Server 12.04 solo debemos 
   <tr>
     <td>ernesto@swap1:~$ sudo sudo a2enmod ssl
 ernesto@swap1:~$ sudo service apache2 restart
-ernesto@swap1:~$ sudo mkdir /etc/apache2/ssl 
+ernesto@swap1:~$ sudo mkdir /etc/apache2/ssl
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt</td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ss
 
 Nos pedirá una serie de datos para el dominio (nombre, ciudad, etc…)
 
-![image alt text]({{ site.url }}/public/BzC7fC6PnqJDi1LkGd2GyQ_img_0.png)
+![image alt text](../public/BzC7fC6PnqJDi1LkGd2GyQ_img_0.png)
 
 Editamos el archivo de configuracion del sitio default-ssl:
 
@@ -140,11 +140,11 @@ ernesto@swap1:~$ sudo service apache2 reload</td>
 
 Una vez reiniciado apache, si accedemos a [https://swap1/](https://swap1/) veremos lo siguiente:
 
-![image alt text]({{ site.url }}/public/BzC7fC6PnqJDi1LkGd2GyQ_img_1.png)
+![image alt text](../public/BzC7fC6PnqJDi1LkGd2GyQ_img_1.png)
 
 Podemos ver que sale en rojo https:, al mostrar la información del certificado veremos lo siguiente:
 
-![image alt text]({{ site.url }}/public/BzC7fC6PnqJDi1LkGd2GyQ_img_2.png)
+![image alt text](../public/BzC7fC6PnqJDi1LkGd2GyQ_img_2.png)
 
 # 7. Obtener e instalar un certificado Let's Encrypt
 
@@ -179,7 +179,7 @@ Procedemos a usar el script automatizado que nos irá guiando a través de una i
 </table>
 
 
-![image alt text]({{ site.url }}/public/BzC7fC6PnqJDi1LkGd2GyQ_img_3.png)
+![image alt text](../public/BzC7fC6PnqJDi1LkGd2GyQ_img_3.png)
 
 Tendremos que poner en nuestro hosting un archivo en la siguiente ruta: http://www.ernesto.es/.well-known/acme-challenge/wGy4RyfXnoZdxQTmz5gXiV7aHT3fMV0
 
@@ -212,15 +212,15 @@ Para renovar el certificado (caduca a los 90 días) podemos llamar al script ./l
 
 *  Network Working Group (May 2000). ["HTTP Over TLS"](https://tools.ietf.org/html/rfc2818). The Internet Engineering Task Force.
 
-* [https://en.wikipedia.org/wiki/Transport_Layer_Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
+* [https://en.wikipedia.org/wiki/Transport_Layer_Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 
-* [https://en.wikipedia.org/wiki/HTTPS](https://en.wikipedia.org/wiki/HTTPS) 
+* [https://en.wikipedia.org/wiki/HTTPS](https://en.wikipedia.org/wiki/HTTPS)
 
-* [https://en.wikipedia.org/wiki/OpenSSL](https://en.wikipedia.org/wiki/OpenSSL) 
+* [https://en.wikipedia.org/wiki/OpenSSL](https://en.wikipedia.org/wiki/OpenSSL)
 
-* [https://www.sslshopper.com/article-a-short-history-of-verisign.html](https://www.sslshopper.com/article-a-short-history-of-verisign.html) 
+* [https://www.sslshopper.com/article-a-short-history-of-verisign.html](https://www.sslshopper.com/article-a-short-history-of-verisign.html)
 
-* [https://servidordebian.org/es/squeeze/intranet/ssl_cert/self_signed](https://servidordebian.org/es/squeeze/intranet/ssl_cert/self_signed) 
+* [https://servidordebian.org/es/squeeze/intranet/ssl_cert/self_signed](https://servidordebian.org/es/squeeze/intranet/ssl_cert/self_signed)
 
-* ["HTTPS as a ranking signal"](http://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html). *Google Webmaster Central Blog*. Google Inc. August 6, 2014. 
+* ["HTTPS as a ranking signal"](http://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html). *Google Webmaster Central Blog*. Google Inc. August 6, 2014.
 
