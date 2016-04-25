@@ -19,7 +19,7 @@ Permitir todo:
 ```
 iptables -F
 iptables -I INPUT -j ACCEPT
-``
+```
 
 ### Ejercicio 6.2: Comprobar qué puertos tienen abiertos nuestras máquinas, su estado, y qué programa o demonio lo ocupa.
 
